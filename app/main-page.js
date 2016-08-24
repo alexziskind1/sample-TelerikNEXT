@@ -46,7 +46,6 @@ function toggleFavorite(args) {
 }
 exports.toggleFavorite = toggleFavorite;
 function showSlideout(args) {
-    console.log("show slideout");
     var page = view.getAncestor(args.view, "Page");
     var slideBar = page.getViewById("SideDrawer");
     slideBar.showDrawer();

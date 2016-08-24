@@ -347,7 +347,7 @@ export class SessionModel extends observable.Observable implements Session {
             this._end = this.fixDate(source.end);
             this._speakers = source.speakers;
             this._description = source.description;
-            this._isBreak = source.isBreak;
+            this._isBreak = (<any>source.isBreak) == -1 ? false : source.isBreak;
         }
     }
 

@@ -276,7 +276,7 @@ var SessionModel = (function (_super) {
             this._end = this.fixDate(source.end);
             this._speakers = source.speakers;
             this._description = source.description;
-            this._isBreak = source.isBreak;
+            this._isBreak = source.isBreak == -1 ? false : source.isBreak;
         }
     }
     SessionModel.prototype.fixDate = function (date) {

@@ -49,5 +49,7 @@
 	<string>UIStatusBarStyleBlackOpaque</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>NSCalendarsUsageDescription</key>
+	<string>TelerikNEXT would like to create a calendar event.</string>
 </dict>
 </plist>
